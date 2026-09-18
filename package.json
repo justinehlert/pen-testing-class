@@ -1,0 +1,19 @@
+{
+  "name": "pen-testing-class",
+  "version": "1.0.0",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --env production",
+    "test": "node worker-validation.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.99.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

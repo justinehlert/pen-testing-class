@@ -1,0 +1,20 @@
+name = "pen-testing-class"
+main = "worker.js"
+compatibility_date = "2024-09-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "LOG_STORE"
+id = "5beeb8afa9be4eb4ab2a03d6b73cbaa0"
+
+[env.production]
+name = "pen-testing-class"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+
+[[env.production.kv_namespaces]]
+binding = "LOG_STORE"
+id = "8b17747719614fb78ea53d1b2ea80099"
